@@ -5,21 +5,11 @@
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1483445523775" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../../user/settings/dev_format_new.xml" />
+    <option name="pathToConfigFileJava" value="E:/../../user/settings/dev_format_new.xml" />
     <option name="selectedJavaProfile" value="Generali - Formattage Socle Technique Java" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="C:/JTB_651_2017_04_06/JTB/projets/apache-ofbiz-16.11.01" value="4423348626000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -95,8 +85,5 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\b010nsm\AppData\Roaming\Subversion</configuration>
   </component>
 </project>
