@@ -1,10 +1,9 @@
-package com.pluralsight.bookstore.repository;
+package com.pluralsight.bookstore;
 
 import com.pluralsight.bookstore.model.Book;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Transient;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 import java.util.List;
@@ -26,7 +25,6 @@ public class BookRepository {
         TypedQuery<Book> bookTypedQuery = entityManager.createQuery("SELECT b from Book b order by b.title desc ", Book.class );
         return bookTypedQuery.getResultList();
     }
-
 
     public Long countAll(){
         TypedQuery<Long> longTypedQuery = entityManager.createQuery("select count (b) from Book b" , Long.class);
