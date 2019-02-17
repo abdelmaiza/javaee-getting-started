@@ -33,6 +33,17 @@ public class BookRepositoryTest {
                 .addAsManifestResource("META-INF/test-persistence.xml", "persistence.xml");
     }
 
+    @Test(expected = Exception.class)
+    public void createInvalidBook(){
+        Book book = new Book("isbn",null,12F,123,Language.FRENCH,new Date(),"http://blablabla" ,"description");
+        bookRepository.create(book);
+    }
+
+    @Test(expected = Exception.class)
+    public void findWithInvalidId(){
+        bookRepository.find(null);
+    }
+
     @Test
     public void create() throws Exception {
         assertEquals(Long.valueOf(0), bookRepository.countAll());
@@ -41,7 +52,6 @@ public class BookRepositoryTest {
         book = bookRepository.create(book);
         Long id = book.getId();
         assertNotNull(id);
-
 
         Book bookFound = bookRepository.find(id);
         assertNotNull(bookRepository.find(id));
@@ -54,5 +64,4 @@ public class BookRepositoryTest {
         assertEquals(Long.valueOf(0), bookRepository.countAll());
         assertEquals(0,bookRepository.findAll().size());
     }
-
 }
