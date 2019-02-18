@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.pluralsight.bookstore.repository.BookRepositoryTest" time="2.433" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2016.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\JTB\jdk\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\JTB\projects\javaee-getting-started\javaee-getting-started"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7535"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\JTB\projects\javaee-getting-started\javaee-getting-started"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\JTB\jdk\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\b010nsm\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\JTB\maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\JTB\jdk\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\IBM\InformationServer\ASBNode\apps\jre\bin\classic;C:\IBM\InformationServer\ASBNode\lib\cpp;C:\IBM\InformationServer\ASBNode\apps\proxy\cpp\vc60\MT_dll\bin;C:\IBM\InformationServer11/jdk32\jre\bin;C:\IBM\InformationServer11/jdk32\jre\bin\j9vm;C:\IBM\InformationServer11\ASBNode\lib\cpp;C:\IBM\InformationServer11\ASBNode\apps\proxy\cpp\vc60\MT_dll\bin;C:\Oracle\product\11.2.0\bin;C:\PROGRA~2\MKSTOO~1\mksnt;C:\PROGRA~2\MKSTOO~1\bin64;C:\PROGRA~2\MKSTOO~1\bin;C:\PROGRA~2\MKSTOO~1\bin\X11;C:\PROGRA~2\MKSTOO~1\mksnt;C:\Program Files (x86)\Business Objects\Common\3.5\bin\NOTES\;C:\Program Files (x86)\Business Objects\Common\3.5\bin\NOTES\DATA\;C:\_IPT\Tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\sybase\DataAccess\ADONET\dll;C:\sybase\DataAccess\OLEDB\dll;C:\sybase\DataAccess\ODBC\dll;C:\sybase\OCS-15_0\lib3p;C:\sybase\OCS-15_0\dll;C:\sybase\OCS-15_0\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\AppSense\Application Manager\Agent\Plugins\EcaRulesEngine\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="C:\JTB\data\maven2"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\b010nsm"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Users\b010nsm\AppData\Roaming\JetBrains\IntelliJ IDEA 2016.3.2\bin"/>
+    <property name="file.encoding" value="ISO-8859-15"/>
+    <property name="user.name" value="b010nsm"/>
+    <property name="java.class.path" value="C:\JTB\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Users\b010nsm\AppData\Roaming\JetBrains\IntelliJ IDEA 2016.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\JTB\jdk\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.2 -s C:\JTB\settings\maven\settings.xml -Dmaven.repo.local=C:\JTB\data\maven2 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\JTB\jdk\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\JTB\jdk\jdk1.8.0_121\jre\lib\resources.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\rt.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\jsse.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\jce.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\charsets.jar;C:\JTB\jdk\jdk1.8.0_121\jre\lib\jfr.jar;C:\JTB\jdk\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\JTB\maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="create" classname="com.pluralsight.bookstore.repository.BookRepositoryTest" time="0.172"/>
+  <testcase name="createInvalidBook" classname="com.pluralsight.bookstore.repository.BookRepositoryTest" time="0.031"/>
+  <testcase name="findWithInvalidId" classname="com.pluralsight.bookstore.repository.BookRepositoryTest" time="0.047"/>
+</testsuite>
