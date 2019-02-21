@@ -7,3 +7,17 @@ k
 +src/main/resources/META-INF/persistence.xml,3\b\3be4f79b5828b3982f3f6a62bf8fc67b3adedf58
 g
 7src/main/java/com/pluralsight/bookstore/model/Book.java,f\0\f01e547d36ef7b939e653cc0e5adf143e8bd9ad4
+z
+Jsrc/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java,b\2\b24881c4bfdfdf3eaf9735fc7e9f9e3977fc3f94
+Q
+!src/test/resources/arquillian.xml,c\7\c7e4f32c80fa88c9a21780cf9071308ca74a4367
+Q
+!src/main/webapp/WEB-INF/beans.xml,8\3\83008b1a88ba03a2548bb5b9ad0768c6c307d36c
+J
+src/main/webapp/index.html,1\3\1337d72a3b1928dba82aa5210f5cdc0e88ce895b
+t
+Dsrc/main/java/com/pluralsight/bookstore/rest/JAXRSConfiguration.java,7\4\742aef6a576d6d0a57ba19504c660b1910b93dfb
+n
+>src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java,5\2\520cbf140f71dc870af790f739527432ef238fbd
+`
+0src/test/resources/META-INF/test-persistence.xml,7\d\7d1b36aaed2ee0c5379fbf98f16456ce8c812840

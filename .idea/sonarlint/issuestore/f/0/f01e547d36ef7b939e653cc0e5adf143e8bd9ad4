@@ -1,2 +1,6 @@
 
-jsquid:UselessImportCheck":Remove this unused import 'javax.persistence.OrderColumn'.(–Î‘úÿÿÿÿ8†˜¨-
+Fsquid:S1172;"(Remove this unused method parameter "s".(±ÂÚ’8·×ƒ‘-
+`squid:S00107;"AConstructor has 8 parameters, which is greater than 7 authorized.(±ÂÚ’8·×ƒ‘-
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÂÚ’8·×ƒ‘-
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÂÚ’8·×ƒ‘-
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ÂÚ’8·×ƒ‘-
