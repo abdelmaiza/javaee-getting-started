@@ -54,7 +54,7 @@ public class BookEndpoint {
     }
 
     @GET
-    @Path("/cout")
+    @Path("/count")
     public Response countBooks() {
         Long nbOfBooks = bookRepository.countAll();
         if(nbOfBooks == 0 ){
@@ -78,8 +78,4 @@ public class BookEndpoint {
         bookRepository.delete(id);
         return Response.noContent().build();
     }
-
-
-
-
 }
