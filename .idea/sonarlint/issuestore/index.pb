@@ -21,3 +21,5 @@ n
 >src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java,5\2\520cbf140f71dc870af790f739527432ef238fbd
 `
 0src/test/resources/META-INF/test-persistence.xml,7\d\7d1b36aaed2ee0c5379fbf98f16456ce8c812840
+r
+Bsrc/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java,a\b\ab1de04acfcd75c265c271063ece9f410258b3eb
