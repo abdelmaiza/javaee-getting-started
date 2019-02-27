@@ -1,5 +1,8 @@
 package com.pluralsight.bookstore.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,9 +20,11 @@ import java.util.Date;
  * Created by b010nsm on 12/02/2019.
  */
 @Entity
+@ApiModel(description = "Book resource representation")
 public class Book {
 
     @Id @GeneratedValue
+    @ApiModelProperty("Identifier")
     private Long id;
 
     @Column(length = 50)
@@ -30,6 +35,7 @@ public class Book {
     @Column(length = 200)
     @NotNull
     @Size(min = 1 , max = 200)
+    @ApiModelProperty("Title of the book")
     private String title;
 
     @Column(name = "image_url")
@@ -51,6 +57,7 @@ public class Book {
 
     @Column(length = 10000)
     @Size(min = 1 , max = 10000)
+    @ApiModelProperty("Description of the book")
     private String description;
 
     public Book() {
