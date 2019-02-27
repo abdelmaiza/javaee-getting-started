@@ -1,54 +1,32 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemalocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.pluralsight.javaee-getting-started.javaee-getting-started-m9</groupId>
+    <groupId>com.pluralsight.javaee-getting-started.javaee-getting-started-m6</groupId>
     <artifactId>bookstore-back</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>Getting Started :: javaee-getting-started-m9 :: Exposing a REST Service :: Back</name>
-
+    <name>Getting Started :: javaee-getting-started-m9 :: Testing the Repository :: Back</name>
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Test -->
+        <project.build.sourceencoding>UTF-8</project.build.sourceencoding>
         <version.junit>4.12</version.junit>
-        <version.arquillian>1.1.13.5</version.arquillian>
+        <version.arquillian>1.4.1.Final</version.arquillian>
         <version.arquillian.wildfly>2.1.1.Final</version.arquillian.wildfly>
         <version.shrinkwrap>1.2.6</version.shrinkwrap>
+        <version.surefire.plugin>2.19.1</version.surefire.plugin>
         <version.arquillian.rest>1.0.0.Alpha4</version.arquillian.rest>
         <version.resteasy>3.1.1.Final</version.resteasy>
-        <!-- Plugins -->
-        <version.surefire.plugin>2.19.1</version.surefire.plugin>
     </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.arquillian</groupId>
-                <artifactId>arquillian-universe</artifactId>
+                <groupId>org.jboss.arquillian</groupId>
+                <artifactId>arquillian-bom</artifactId>
                 <version>${version.arquillian}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <profiles>
-        <!-- Arquillian WildFly remote profile -->
-        <profile>
-            <id>arq-widlfly-remote</id>
-            <dependencies>
-                <dependency>
-                    <groupId>org.wildfly.arquillian</groupId>
-                    <artifactId>wildfly-arquillian-container-remote</artifactId>
-                    <version>${version.arquillian.wildfly}</version>
-                    <scope>test</scope>
-                </dependency>
-            </dependencies>
-        </profile>
-    </profiles>
-
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
@@ -56,8 +34,6 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- TEST -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -65,10 +41,10 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.arquillian.universe</groupId>
-            <artifactId>arquillian-junit</artifactId>
+            <groupId>org.jboss.arquillian.junit</groupId>
+            <artifactId>arquillian-junit-container</artifactId>
+            <version>${version.arquillian}</version>
             <scope>test</scope>
-            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.jboss.shrinkwrap</groupId>
@@ -101,10 +77,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <finalName>bookstore-back</finalName>
-
         <plugins>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -165,12 +139,10 @@
                 <version>3.0.0</version>
                 <configuration>
                     <descriptorRefs>
-                        <descriptorRef>src</descriptorRef>
+                        <descriptorref>src</descriptorref>
                     </descriptorRefs>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
-

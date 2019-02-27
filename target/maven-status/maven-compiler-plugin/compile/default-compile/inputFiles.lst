@@ -1,8 +1,8 @@
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\repository\BookRepository.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\NumberGenerator.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\rest\JAXRSConfiguration.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\IsbnGenerator.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\model\Book.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\model\Language.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\rest\BookEndpoint.java
-C:\JTB\projects\javaee-getting-started\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\TextUtil.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\model\Language.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\rest\JAXRSConfiguration.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\repository\BookRepository.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\model\Book.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\IsbnGenerator.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\rest\BookEndpoint.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\NumberGenerator.java
+E:\javaee-getting-started\src\main\java\com\pluralsight\bookstore\util\TextUtil.java
